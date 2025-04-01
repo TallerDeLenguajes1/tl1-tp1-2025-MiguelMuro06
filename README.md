@@ -33,3 +33,10 @@ ignorado.txt
 ```
 Esto evitará que Git rastree ese archivo en el repositorio.
 
+## Respuesta del tp1_1.c
+###  ¿a qué se debe?
+punt contiene la direccion de memoria de x (*punt = &x), por lo tanto ambos muestran la misma direccion de memoria
+
+### ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué?
+te da la dirrecion de memoria donde esta almacenada el puntero. No . El puntero _(punt)_ es otra variable (que almacena una dirección), y por lo tanto ocupa su propio espacio en memoria. 
+
